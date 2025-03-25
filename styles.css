@@ -5,6 +5,7 @@ body {
   background-position-y: center;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(back.jpg);
 }
 
 #tartalom {
@@ -25,6 +26,7 @@ body {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color:  rgba(227, 235, 233, 0.8);
+  border: 5px solid rgba(0, 0, 255, 50%);
 }
 
 .kepkeret img {
@@ -32,7 +34,8 @@ body {
   position: relative;
   left: -5px;
   border-bottom: 1px solid black;
-  border: 5px solid rgba(0, 0, 255, 50%)
+
+  
   
 }
 
@@ -58,4 +61,14 @@ p {
 h3{
   font-style: italic;
   text-indent: 10px;
+}
+a{
+  text-decoration: none;
+  color: yellow;
+}
+a:visited{
+  color: yellow;
+}
+a:hover{
+  color: red;
 }
